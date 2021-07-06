@@ -1,0 +1,28 @@
+
+.mb-3{
+    margin: 15px;
+    font-size: 18px;
+    padding: 5px 5px 5px;
+}
+
+.form-control{
+    width: 380px;
+}
+
+.input-group-prepend{
+    width: 500px;
+}
+
+.igmb-3{
+    margin: 15px;
+    font-size: 18px;
+    padding: 5px 5px 5px;
+    width: 390px;
+}
+
+.fw-bold{
+    text-align: left;
+    font-size: 30px;
+    font-weight: 750;
+    margin: 10px;
+}

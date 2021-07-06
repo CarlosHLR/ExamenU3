@@ -1,0 +1,44 @@
+<form>
+    <p class="fw-bold">Añadir un contacto.</p>
+    <div class="form-row">
+      <div class="mb-3">
+        <label for="inputName" class="form-label">Nombre (*)</label>
+        <input type="name" class="form-control" id="inputName" aria-describedby="nameHelp" placeholder="Escribe un Nombre...">
+      </div>
+      <div class="mb-3">
+        <label for="inputApellido" class="form-label">Apellido (*)</label>
+        <input type="apellido" class="form-control" id="inputApellido" aria-describedby="nameHelp" placeholder="Escribe un Apellido...">
+      </div>
+    </div>
+    
+    <div class="mb-3">
+      <label for="descripción">Descripción</label>
+      <textarea class="form-control" id="descripción" rows="3"></textarea>
+    </div>
+      <div class="mb-3">
+        <label for="inputEmpresa" class="form-label">Empresa</label>
+        <input type="empresa" class="form-control" id="inputEmpresa" placeholder="Escribe el nombre de su empresa...">
+      </div>
+      <div class="igmb-3">
+        <label for="inputSexo" class="form-label">Sexo </label>
+        <div class="input-group-prepend">
+        </div>
+        <select class="custom-select" id="inputGroupSelect01" >
+          <option selected>Elegir...</option>
+          <option value="1">Hombre</option>
+          <option value="2">Mujer</option>
+        </select>
+      </div>
+      <div class="mb-3">
+        <label for="inputEmail" class="form-label">Email (*)</label>
+        <input type="email" class="form-control" id="inputEmail" aria-describedby="emailHelp" placeholder="Escribe tu Email...">
+      </div>
+      <div class="mb-3">
+        <label for="inputTelefono" class="form-label">Telefono (*)</label>
+        <input type="number" class="form-control" id="inputTelefono" aria-describedby="telefonoHelp" placeholder="Escribe tu número de Telefono...">
+      </div>  
+
+    <button type="añadir" class="btn btn-primary">Añadir Contacto</button>
+  </form>
+
+  
